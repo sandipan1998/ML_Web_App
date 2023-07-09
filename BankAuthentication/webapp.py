@@ -10,7 +10,7 @@ from PIL import Image
 #app=Flask(__name__)
 #Swagger(app)
 
-pickle_in = open("C:/Users/sandipan/ML_Deply/venv/M_BankAuthentication/classifier.pkl","rb")
+pickle_in = open("BankAuthentication/classifier.pkl","rb")
 classifier=pickle.load(pickle_in)
 
 #@app.route('/')
